@@ -30,7 +30,7 @@ git clone https://github.com/your-username/project-name.git
 cd project-name
 Install dependencies:
     npm install
-running the project
+running the project:
      gulp
-build for production
+build for production:
      gulp nunjucks
