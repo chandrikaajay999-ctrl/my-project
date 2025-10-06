@@ -1,0 +1,22 @@
+{% extends "layout.njk" %}
+{% set title = "About | My Website" %}
+{% set page = "about" %}
+
+{% block content %}
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">About Us</h1>
+    <p class="lead text-center">We are a passionate team dedicated to building modern and responsive web applications.</p>
+    <div class="row mt-4">
+      <div class="col-md-6">
+        <img src="https://picsum.photos/600/400?random=7" class="img-fluid rounded shadow" alt="About Us">
+      </div>
+      <div class="col-md-6 d-flex align-items-center">
+        <p>
+          Our company provides a full range of web design and development services.
+          From simple landing pages to complex applications, we ensure every product we create
+          is visually appealing, fast, and user-friendly.
+        </p>
+      </div>
+    </div>
+  </div>
+{% endblock %}
